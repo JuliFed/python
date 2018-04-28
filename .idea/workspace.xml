@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106b0790-4660-44fc-ae44-c1ddaa635cb8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lesson2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+            <state relative-caret-position="303">
+              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="turtle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/turtle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -37,6 +48,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/turtle.py" />
         <option value="$PROJECT_DIR$/lesson2.py" />
       </list>
     </option>
@@ -81,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lesson2">
+  <component name="RunManager" selected="Python.turtle">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="lesson2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,10 +130,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="turtle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lesson2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/turtle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.lesson2" />
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.turtle" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.turtle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -165,8 +201,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lesson2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="154" column="19" selection-start-line="154" selection-start-column="19" selection-end-line="154" selection-end-column="19" />
+        <state relative-caret-position="303">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
