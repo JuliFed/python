@@ -50,3 +50,22 @@ def foo(x):
 
 print(id(x))
 foo(x)
+
+
+# dict
+x = {
+    123:123,
+    '123':124,
+    "dddd":"ddd",
+}
+
+print(x["123"])
+print(x[123])
+
+
+print("Hello %s" % "user")
+print("Hello %d" % 1022)
+print("Hello %02d" % 1)
+print("%.2f" % 0.1)
+
+
