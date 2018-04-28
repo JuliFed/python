@@ -16,8 +16,8 @@
       <file leaf-file-name="lesson2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -165,8 +165,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lesson2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>

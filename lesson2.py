@@ -68,4 +68,10 @@ print("Hello %d" % 1022)
 print("Hello %02d" % 1)
 print("%.2f" % 0.1)
 
+# разобраться с байтами! bytes
+print(b'fgsdfg'[1])
+print("привет".encode('utf-8'))
+
+
+
 
