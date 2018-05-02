@@ -1,5 +1,4 @@
 class Animal:
-
     def __init__(self, name):
         self.name = name
 
@@ -7,28 +6,43 @@ class Animal:
         raise NotImplementedError
 
     def meal(self):
-        print("Animal")
+        print("This is Animal")
 
 
 class PredatorMixin:
     def meal(self):
-        print("This is PredatorMixin")
+        print("This is PredatorMixin", "=", self.name)
 
 
-class Cat(Animal, PredatorMixin):
+# декоратор
+def butter(fn):
+    def wrapper(self, msg="Rrrrrrr"):
+        print("Say", msg)
+        fn(self)
+    return wrapper
+
+
+class Cat(PredatorMixin, Animal):
     def __init__(self, name, color):
         super().__init__(name)
         self.color = color
 
-    def say(self):
-        print("meow")
+    @butter
+    def say(self, msg="meow"):
+        print(self.name, "says", msg)
 
 
-my_cat = Cat("Leon", "red")
-my_cat.meal()
-my_cat.say()
-print(my_cat.color)
+# print(Cat.mro())
+cat1 = Cat("Leona", "orange")
+cat2 = Cat("Barsik", "black")
+cat3 = Cat("Murcik", "white")
 
+cat1.say()
+cat2.say("ffff")
+test = cat1.say
+# test()
+# cat1.name = "fdfdfdf"
+# test()
 
-
+# print(cat1.color)
 
