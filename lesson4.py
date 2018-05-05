@@ -13,3 +13,11 @@ class Foo:
             raise StopIteration
         finally:
             self.i = self.i + 1
+
+
+y = Foo()
+for i in y:
+    print(i)
+
+for i in y:
+    print(i)
