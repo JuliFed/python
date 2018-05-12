@@ -82,6 +82,14 @@ class StaticMethod:
     def __init__(self, f):
         self.f = f
 
+    def __get__(self, obj, cls="None"):
+        return self.f
+
+
+class ClassMethod:
+    def __init__(self, f):
+        self.f = f
+
     # def __get__(self, obj, cls="None"):
     #     return self.f
 
