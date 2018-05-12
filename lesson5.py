@@ -22,12 +22,13 @@ class Bar:
         del self._x
 
 
-# bar = Bar()
-# print(bar.foo)
-# bar.foo = 2
-# print(bar.foo)
-# del bar.foo
-# print(bar.foo)
+print('Bar')
+bar = Bar()
+print(bar.foo)
+bar.foo = 2
+print(bar.foo)
+del bar.foo
+print(bar.foo)
 
 
 class Property:
@@ -67,9 +68,35 @@ class Bar2:
     foo = Property(getx, setx, delx)
 
 
+print('Bar2 with Property')
 bar2 = Bar2()
 print(bar2.foo)
 bar2.foo = 25
 print(bar2.foo)
 del bar2.foo
 print(bar2.foo)
+
+
+# @staticmethod под капотом
+class StaticMethod:
+    def __init__(self, f):
+        self.f = f
+
+    # def __get__(self, obj, cls="None"):
+    #     return self.f
+
+    def __get__(self, obj, cls="None"):
+        def wrapper(*args, **kwargs):
+            return self.f(cls, *args, **kwargs)
+        return wrapper()
+
+
+class BoundMethod:
+    def __init__(self, f):
+        self.f = f
+
+    def __get__(self, obj, cls="None"):
+        def wrapper(*args, **kwargs):
+            return self.f(obj, *args, **kwargs)  # вместо класса прокидываем obj в отличие от static
+        return wrapper()
+
