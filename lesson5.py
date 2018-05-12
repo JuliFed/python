@@ -120,9 +120,20 @@ from collections import namedtuple
 # sq = Square(7)
 # print(sq)
 
-Person = namedtuple('Person', ['name', 'age'])
+# Person = namedtuple('Person', ['name', 'age'])
+#
+#
+# class Person(Person):
+#     def __new__(cls, *args, **kwargs):
+#         kwargs['name'] = kwargs['name'].title()
+#         return super().__new__(cls, *args, **kwargs)
+#
+#
+# p = Person(name='vasYa', age=20)
+# print(p.name)
 
 
+# Метаклассы
 class Person(Person):
     def __new__(cls, *args, **kwargs):
         kwargs['name'] = kwargs['name'].title()
